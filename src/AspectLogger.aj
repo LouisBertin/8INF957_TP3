@@ -38,4 +38,16 @@ public aspect AspectLogger {
     after(Move mv) : movement(mv) {
         logger.info("[start] x : " + mv.xI + " y : " + mv.yI + " [end] x : " + mv.xF + " y : " + mv.yF);
     }
+
+    /*
+     * Check if movement is valid
+     */
+    pointcut makeMove(Move mv) : call (* agent.HumanPlayer.makeMove(Move)) && args(mv);
+    after(Move mv) returning(Boolean b) : makeMove(mv) {
+        if (b) {
+            logger.info("Movement is valid");
+        } else {
+            logger.info("Movement isn't valid");
+        }
+    }
 }

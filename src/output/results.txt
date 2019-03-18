@@ -1,4 +1,14 @@
-mars 14, 2019 3:39:08 PM AspectLogger ajc$after$AspectLogger$1$ca87e7a7
-INFOS: [start] position x : 0 position y : 1 [end] position x : 0 position y : 3
-mars 14, 2019 3:39:08 PM AspectLogger ajc$after$AspectLogger$1$ca87e7a7
-INFOS: [start] position x : 6 position y : 7 [end] position x : 5 position y : 5
+mars 18, 2019 7:49:06 PM AspectLogger ajc$after$AspectLogger$1$ca87e7a7
+INFOS: [start] x : 0 y : 1 [end] x : 0 y : 3
+mars 18, 2019 7:49:06 PM AspectLogger ajc$afterReturning$AspectLogger$2$488a5dd7
+INFOS: Movement is valid
+mars 18, 2019 7:49:06 PM AspectLogger ajc$after$AspectLogger$1$ca87e7a7
+INFOS: [start] x : 6 y : 7 [end] x : 5 y : 5
+mars 18, 2019 7:49:11 PM AspectLogger ajc$afterReturning$AspectLogger$2$488a5dd7
+INFOS: Movement isn't valid
+mars 18, 2019 7:49:17 PM AspectLogger ajc$after$AspectLogger$1$ca87e7a7
+INFOS: [start] x : 0 y : 3 [end] x : 0 y : 2
+mars 18, 2019 7:49:17 PM AspectLogger ajc$afterReturning$AspectLogger$2$488a5dd7
+INFOS: Movement is valid
+mars 18, 2019 7:49:17 PM AspectLogger ajc$after$AspectLogger$1$ca87e7a7
+INFOS: [start] x : 5 y : 5 [end] x : 4 y : 3
