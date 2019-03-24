@@ -5,6 +5,9 @@ import java.util.logging.FileHandler;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
+/**
+ * The type Aspect logger.
+ */
 public aspect AspectLogger {
     /**
      * Logger.
